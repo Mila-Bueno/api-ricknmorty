@@ -1,0 +1,73 @@
+.result-style {
+    display: flex;
+    text-align: left;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 30px rgba(159, 250, 85, 0.7);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+img {
+    max-height: 200px;
+    padding-right: 20px;
+    border-radius: 20px;
+    display: flex;
+    order: -1;
+
+}
+
+input[type='number']{
+    padding: 5px;
+    width: 50px;
+}
+
+form label {
+    padding-left: 20px;
+}
+
+body{
+    background-color: black;
+    background-image: url(./d797f69fc8f68472025453314990e8aa.jpeg);
+}
+
+
+h1, h2, label,p, #content{
+    color: whitesmoke;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.3);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.idPersonagem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-image: url(./x498howiltl71.gif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.filtros {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.gif-portal {
+    z-index: -1;
+}
+
+.enfeite-portal{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
